@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+}
+header{
+    width: 100%;
+    height: 650px;
+    background: #ba5370;
+    background: -webkit-linear-gradient(to right, rgba(186, 83, 112, 0.36), rgba(244, 226, 216, 0.69));
+    background: linear-gradient(to right, rgba(186, 83, 112, 0.4), rgba(244, 226, 216, 0.55)), url(../img/cake-1241413_1920.jpg);
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.ola{
+    position:absolute;
+    bottom: 0px;
+    width:100%;
+}
+nav{
+    background: rgba(0, 0, 0, 0.31);
+    text-align: right;
+    padding: 20px;
+}
+a{
+    color: #ffffff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.inicio{
+    text-align: center;
+    margin-top: 220px;
+}
+h1{
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 900;
+    
+}
+.contenedor{
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: #9503a2;
+    padding: 20px;
+}
+.galeria{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+}
+.img{
+    width: 330px;
+    height: 450px;
+    margin: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.49);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition; all: .25;
+}
+
+.imagen{
+    width: 330px;
+    height; 200px;
+    
+}
+.img h3{
+    padding: 5px;
+    
+}
+.img p{
+    text-align: justify;
+    padding: 12px;
+    line-height: 1.5;
+    color: #000000;
+}
+.img: hover{
+    transform: translateY(-15px);
+    
+}
+.imagen:active{
+    transform: scale(1.5);
+    transition: 2s;
+}
+.contenedor-nosotros{
+    
+}
+.cont-nosotros{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.img-nosotros{
+    width: 48%;
+}
+.text-nosotros{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    position: relative;
+    color: #000000;
+}
+
+footer{
+    background: rgba(129, 129, 129, 0.87);
+    padding: 30px;
+}
+.contenedor-footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.cont-footer{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.img-footer{
+    width: 60px;
+}
+.text-footer{
+    border-top: 1px solid #ccc;
+    color: #000000;
+}
